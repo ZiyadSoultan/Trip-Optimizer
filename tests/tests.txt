@@ -1,0 +1,29 @@
+Note that the GUI and components directly related to it have primarily been tested graphically, as it is difficult to test qualities such as alignment or click responsiveness with code.
+Additionally, the remaining automated testing has been done on a per file basis, meaning that there is some mixing of unit and integration testing.
+
+Here are the main project objectives from the Software Scope Document, and how we have fulfilled them:
+-Program that is able to take input data from user about travel plans
+    Inputs for distance and vehicle type across each medium is taken through dropdowns and text boxes.
+-Using said data, plan and give options for the most environmental, and economic routes
+    The optimizer shows the vehicle configuration with the least emissions, least cost, highest efficiency and lowest time.
+-Also be able to state what modes of travel will likely be required (If it's over water a boat or plane would be needed etc…)
+    Water, land and aerial vehicles are supported.
+-Responsive, short loading times
+    Loads in seconds, processing is short for even large inputs (ex. 10000 km)
+-Results in line with similar tools
+    So long as the data provided is the same.
+-Intuitive, memorable, and visually appealing user interface
+    The themed interface is kept simple with tooltips where needed, indicating units in the selected system (metric/imperial).
+-Logical results base on the selected route characteristic (e.g. a boat isn’t use to cross a mountain)
+    Only distance and medium (land, water) was taken into account, not altitude.
+-Applicable and match real life examples
+    Data doesn't even need to be completely filled! You can provide just emissions and cost data to the .json files, which the average car owner can easily find or calculate about their vehicle, and run the program plotting only those results.
+-Emission and distance calculations are mathematically and graphically accurate
+    Units are converted with several decimals of accuracy, all verified through online sources when possible. Matplotlib gives accurate and clean charting capabilities to the program.
+-Eco friendly vs economical methods are listed in the correct order
+    Through testing, we have shown that the program can repeatedly optimize an array of vehicles to find the most ideal options.
+-Give at least 3 options (e.g. type of transportation) to select from per route
+    The optimizer shows the vehicle configuration with the least emissions, least cost, highest efficiency and lowest time.
+-Visual and mathematical data provided for each emission option
+    A table and plot is provided for each route given, complete with units.
+From this, we can validate that we have generally fulfilled or slightly exceeded all major objectives put out in the Software Scope Document during the planning phase.

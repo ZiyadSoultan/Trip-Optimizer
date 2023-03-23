@@ -1,0 +1,11 @@
+{
+  "Name": "Jetliner",
+  "Medium": 3,
+  "Bounds": [560, 13330],
+  "Lifespan": 52500,
+  "Emissions": 0.1974125,
+  "MEmissions": 400,
+  "PMPGe": 50.32,
+  "Speed": 925.373,
+  "Cost": 0.12
+}

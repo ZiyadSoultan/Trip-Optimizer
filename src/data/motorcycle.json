@@ -1,0 +1,11 @@
+{
+  "Name": "Motorcycle",
+  "Medium": 1,
+  "Bounds": [0, 30577.536],
+  "Lifespan": 482803.2,
+  "Emissions": 0.11551,
+  "MEmissions": 13700,
+  "PMPGe": 50.34,
+  "Speed": 80,
+  "Cost": 0.14
+}

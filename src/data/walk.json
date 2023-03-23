@@ -1,0 +1,11 @@
+{
+  "Name": "Walk",
+  "Medium": 1,
+  "Bounds": [0, 42.195],
+  "Lifespan": 177027.84,
+  "Emissions": 0,
+  "MEmissions": 0,
+  "PMPGe": 700,
+  "Speed": 5,
+  "Cost": 0
+}

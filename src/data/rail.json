@@ -1,0 +1,11 @@
+{
+  "Name": "Rail",
+  "Medium": 1,
+  "Bounds": [10, 10267],
+  "Lifespan": 4000000,
+  "Emissions": 0.04115,
+  "MEmissions": 9249,
+  "PMPGe": 58.93,
+  "Speed": 130,
+  "Cost": 0.09
+}

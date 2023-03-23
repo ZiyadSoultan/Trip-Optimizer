@@ -1,0 +1,11 @@
+{
+  "Name": "Ferry",
+  "Medium": 2,
+  "Bounds": [0, 2983],
+  "Lifespan": 1500000,
+  "Emissions": 0.12952,
+  "MEmissions": 748,
+  "PMPGe": 13.52,
+  "Speed": 33,
+  "Cost": 0.49
+}

@@ -1,0 +1,14 @@
+This directory contains <vehicle_name>.json files that provide data to the main program. The ones that come with the source code are sample files to demonstrate the functionality of the program. Please delete them and create your own files following the same format.
+
+Descriptions:
+    Name - type of vehicle.
+    Medium - 1 indicates ground, 2 indicates water, 3 indicates air (capable of both)
+    Bounds - array of minimum range and maximum range that the vehicle can be used for [min (km), max (km)].
+    Lifespan - lifespan of vehicle in km.
+    Emissions - kilograms of carbon dioxide equivalent emissions per kilometer per passenger (kg CO2e/km/p).
+    MEmissions - kilograms of carbon dioxide equivalent emissions from manufacturing per passenger (kg CO2e/km/p).
+    PMPGe - EPA passenger miles per gasoline gallon equivalent.
+    Speed - average speed (km/h).
+    Cost - cost per km per passenger in CAD.
+
+Parameters such as mileage and speed can be estimated. For example, to estimate the average cost per km for an airplane, you can divide the average ticket cost by the average flight distance of a set of flights. This should correctly estimate a linear relationship if the bounds are set correctly.

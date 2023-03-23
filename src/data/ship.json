@@ -1,0 +1,11 @@
+{
+  "Name": "Ship",
+  "Medium": 2,
+  "Bounds": [10, 40000],
+  "Lifespan": 7688000,
+  "Emissions": 0.04115,
+  "MEmissions": 1000,
+  "PMPGe": 18.505,
+  "Speed": 37.04,
+  "Cost": 0.30
+}

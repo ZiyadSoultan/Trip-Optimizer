@@ -1,0 +1,11 @@
+{
+  "Name": "Car",
+  "Medium": 1,
+  "Bounds": [0, 30577.536],
+  "Lifespan": 482803.2,
+  "Emissions": 0.18084,
+  "MEmissions": 1914,
+  "PMPGe": 41.66,
+  "Speed": 80,
+  "Cost": 0.17
+}
